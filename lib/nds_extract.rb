@@ -10,7 +10,7 @@ def gross_for_director(director_data)
     new_hash[(director_data[row_index][:name])]= 0
     column_index = 0
   while column_index < director_data[row_index][:movies].length do
-    new_hash[(director_data[row_index][:name])] += director_data[row_index][:movies][column_index][:worldwide_gross]
+    new_hash(director_data[row_index][:name]) += director_data[row_index][:movies][column_index][:worldwide_gross]
      column_index += 1
     end
      row_index += 1
