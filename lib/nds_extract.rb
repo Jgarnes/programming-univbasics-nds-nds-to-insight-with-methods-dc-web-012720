@@ -16,7 +16,7 @@ def gross_for_director(director_data)
   end
  puts grand_total
 end
-    gross_for_director(director_data)
+    gross_for_director(director_database)
 
 # Write a method that, given an NDS creates a new Hash
 # The return value should be like:
